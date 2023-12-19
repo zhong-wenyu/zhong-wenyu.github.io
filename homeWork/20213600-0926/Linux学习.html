@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux学习</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body { 
+              color:black;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        h2{
+            width: auto;
+        }
+        ul {
+            text-align: center;
+            width: auto;
+            border: 1px solid black;
+        }
+        a{
+            font-size: large;
+        }
+        ul li {
+            display: inline;
+            list-style: none;
+        }
+
+        ul li button {
+            font-size: large;
+            width: 100px;
+            height: 45px;
+            margin: 3em;
+        }
+    </style>
+    <script>
+        function myfunction1() {
+            document.getElementById("word").src = "group/jiaoyu.txt";
+        }
+        
+        function myfunction2() {
+            document.getElementById("word").src = "group/wangluo.txt";
+        }
+        function myfunction3() {
+            document.getElementById("word").src = "group/zhineng.txt";
+        }
+		function myfunction4() {
+            document.getElementById("word").src = "group/ruanjian.txt";
+        }
+        function myfunction5() {
+            document.getElementById("word").src = "group/shuma.txt";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>企业分类</h1>
+    <div>
+        <ul>
+            <li><button type="button" onclick="myfunction1()">教育公司</button></li>
+            <li><button type="button" onclick="myfunction2()">网络公司</button></li>
+            <li><button type="button" onclick="myfunction3()">智能公司</button></li>
+            <li><button type="button" onclick="myfunction4()">软件公司</button></li>
+			<li><button type="button" onclick="myfunction5()">数码公司</button></li>
+        </ul>
+    </div>
+    <h2>正文:</h2>
+    <iframe id="word" src="" width="500" height="500"></iframe><br>
+    <a href="https://www.mi.com/about">北京小米移动软件有限公司</a>
+
+</body>
+
+</html>
