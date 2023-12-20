@@ -1,5 +1,5 @@
 var mediaData = {
-    authorPath:"d:/zhongWY/images/",
+    authorPath:"images/",
     authorspicUrl:["李建宏老师.jpg","zwy.jpg","zcw.png","xjw.jpg","zdn.jpg","zlf.jpg","glj.jpg"],
     authorsnames:["李建宏老师","zwy","zcw","xjw","zdn","zlf","glj"],
     authorsUrl:[" " , "https://zhong-wenyu.github.io/" , "https://zhang-xian-sheng1.github.io", "https://xujiangwe.github.io", "https://z-dn.github.io", "https://zenglingfengzeta.github.io", "https://Guo-lijing.github.io" ],
