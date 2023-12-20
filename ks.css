@@ -88,10 +88,19 @@ div#info{
   color:white;
   font-size:2vw;
   cursor: pointer;
-  height: 17%;
-  line-height: 100%;
+  height: 33%;
+  line-height: 700%;
   margin-top: 0;
   margin-bottom: 1px;
+}
+button{
+  background: #4585df;
+  height: 20%;
+  width: 12%;
+  border-radius: 4px;
+  font-size:2vw;
+  min-height: 70px;
+  margin: 10px;
 }
 .el-row {
     margin-bottom: 20px;
